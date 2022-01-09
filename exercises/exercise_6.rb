@@ -24,5 +24,8 @@ puts "----------"
 khurram = @store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
 khurram.save
 
+@store2.employees.create(first_name: "Lou", last_name: "Gee", hourly_rate: 60)
+@store2.employees.create(first_name: "Wayne", last_name: "Shawn", hourly_rate: 60)
 
+@store3.employees.create(first_name: "Jay", last_name: "Z", hourly_rate: 60)
 
