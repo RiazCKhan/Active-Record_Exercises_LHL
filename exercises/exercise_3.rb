@@ -13,9 +13,9 @@ puts "----------"
 
 
 @store3 = Stores.find_by(:id => 3)
-puts @store3.name
 
-
-
+# Both destory and delete both work to remove records from a table
+@store3.delete 
+@store2.destroy
 
 puts "Number of stores in Database", Stores.count
