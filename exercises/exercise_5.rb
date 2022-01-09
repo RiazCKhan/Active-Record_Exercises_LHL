@@ -17,4 +17,4 @@ puts "----------"
 
 # puts "Combined Avg Rev of all Stores", Stores.average('annual_revenue')
 
-puts "Number of Stores generating annual sales greater than $1M", Stores.where('annual_revenue > ?', 1000000).count
+# puts "Number of Stores generating annual sales greater than $1M", Stores.where('annual_revenue > ?', 1000000).count
