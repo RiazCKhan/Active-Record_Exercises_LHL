@@ -22,3 +22,9 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+
+test = Store.create(name: 'hi')
+puts test.valid?
+puts test.errors.first
+
+
