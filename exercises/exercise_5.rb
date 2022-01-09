@@ -13,8 +13,8 @@ puts "----------"
 
 # Your code goes here ...
 
-# puts "Combined Rev of all Stores", Stores.sum('annual_revenue')
+# puts "Combined Rev of all Stores", Store.sum('annual_revenue')
 
-# puts "Combined Avg Rev of all Stores", Stores.average('annual_revenue')
+# puts "Combined Avg Rev of all Stores", Store.average('annual_revenue')
 
-# puts "Number of Stores generating annual sales greater than $1M", Stores.where('annual_revenue > ?', 1000000).count
+# puts "Number of Stores generating annual sales greater than $1M", Store.where('annual_revenue > ?', 1000000).count
