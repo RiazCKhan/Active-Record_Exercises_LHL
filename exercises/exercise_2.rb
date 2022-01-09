@@ -11,7 +11,10 @@ puts "----------"
 # Your code goes here ...
 
 @store1 = Stores.find_by(:id => 1)
+@store1.name = 'STC'
+@store1.save
 puts @store1.name
+
 
 @store2 = Stores.find_by(:id => 2)
 puts @store2.name
