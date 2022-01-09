@@ -12,10 +12,10 @@ puts "----------"
 # Your code goes here ...
 
 
-@store3 = Stores.find_by(:id => 3)
+@store3 = Store.find_by(:id => 3)
 
 # Both destory and delete both work to remove records from a table
 @store3.delete 
 @store2.destroy
 
-puts "Number of stores in Database", Stores.count
+puts "Number of stores in Database", Store.count
