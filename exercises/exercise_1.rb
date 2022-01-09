@@ -10,16 +10,17 @@ puts "Exercise 1"
 puts "----------"
 
 # Your code goes below here ...
-class Stores < ActiveRecord::Base
-end
+# class Stores < ActiveRecord::Base
+#   has_many :employees
+# end
 
-burnaby = Stores.create(name: "Burnaby", annual_revenue: 300000, mens_apparel: true, womens_apparel: true)
+burnaby = Store.create(name: "Burnaby", annual_revenue: 300000, mens_apparel: true, womens_apparel: true)
 burnaby.save
 
-richmond = Stores.create(name: "Richmond", annual_revenue: 1260000, mens_apparel: false, womens_apparel: true)
+richmond = Store.create(name: "Richmond", annual_revenue: 1260000, mens_apparel: false, womens_apparel: true)
 richmond.save
 
-gastown = Stores.create(name: "Gastown", annual_revenue: 190000, mens_apparel: true, womens_apparel: false)
+gastown = Store.create(name: "Gastown", annual_revenue: 190000, mens_apparel: true, womens_apparel: false)
 gastown.save
 
-puts "Number of stores in Database", Stores.count
+# puts "Number of stores in Database", Store.count
