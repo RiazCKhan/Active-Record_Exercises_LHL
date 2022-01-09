@@ -9,3 +9,6 @@ puts "Exercise 2"
 puts "----------"
 
 # Your code goes here ...
+
+@store1 = Stores.find_by(:id => 1)
+puts @store1.name
