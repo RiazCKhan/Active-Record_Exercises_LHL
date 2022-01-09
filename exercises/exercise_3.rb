@@ -12,7 +12,8 @@ puts "----------"
 # Your code goes here ...
 
 
-
+@store3 = Stores.find_by(:id => 3)
+puts @store3.name
 
 
 
