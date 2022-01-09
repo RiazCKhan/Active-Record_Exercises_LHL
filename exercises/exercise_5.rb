@@ -12,3 +12,7 @@ puts "Exercise 5"
 puts "----------"
 
 # Your code goes here ...
+
+puts "Combined Rev of all Stores", Stores.sum('annual_revenue')
+
+puts "Combined Avg Rev of all Stores", Stores.average('annual_revenue')
