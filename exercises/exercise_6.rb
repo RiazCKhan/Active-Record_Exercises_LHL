@@ -21,3 +21,8 @@ puts "Exercise 6"
 puts "----------"
 
 # Your code goes here ...
+khurram = @store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
+khurram.save
+
+
+
